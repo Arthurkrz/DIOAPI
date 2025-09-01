@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35828.75 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIOAPI", "DIOAPI.csproj", "{47A3DA83-859B-8192-363F-D77477E4C4D7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIOAPI", "DIOAPI.API\DIOAPI.csproj", "{47A3DA83-859B-8192-363F-D77477E4C4D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIOAPI.Tests", "DIOAPI.Tests\DIOAPI.Tests.csproj", "{FF7ED546-A27F-4B1B-A0A9-A7D9FF3D1358}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,11 +17,15 @@ Global
 		{47A3DA83-859B-8192-363F-D77477E4C4D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47A3DA83-859B-8192-363F-D77477E4C4D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47A3DA83-859B-8192-363F-D77477E4C4D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF7ED546-A27F-4B1B-A0A9-A7D9FF3D1358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF7ED546-A27F-4B1B-A0A9-A7D9FF3D1358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF7ED546-A27F-4B1B-A0A9-A7D9FF3D1358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF7ED546-A27F-4B1B-A0A9-A7D9FF3D1358}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E071F7CC-2592-4C6B-8AB1-71411B7318DE}
+		SolutionGuid = {9596A8D1-68EA-43C0-80A4-B3F650A56B89}
 	EndGlobalSection
 EndGlobal
